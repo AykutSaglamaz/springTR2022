@@ -11,7 +11,7 @@ public class String01 {
 		
 		System.out.println(s1.indexOf("earn", 5));//11
 		
-		//9.Method: lastIndexOf() <== It returns the index of last occurence of a character + Returns int
+		//9.Method: lastIndexOf() <== It returns the index of last occurrence of a character + Returns int
 		System.out.println(s1.indexOf("e"));//1
 		
 		System.out.println(s1.lastIndexOf("e"));//19

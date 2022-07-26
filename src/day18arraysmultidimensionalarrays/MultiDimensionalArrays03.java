@@ -7,6 +7,7 @@ public class MultiDimensionalArrays03 {
 	public static void main(String[] args) {
 		
 		//How to convert 2 dimensional array to 1 dimensional array
+		// 2 boyutlu arrayi tek boyutlu array e nasil ceviririz
 		
 		int arr[][] = { {1,2}, {3,4,5}, {6, 7, 9, 10} };
 		

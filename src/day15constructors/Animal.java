@@ -6,6 +6,12 @@ package day15constructors;
 	
 	We do not use class variables inside the constructors, because class variables are related with class
 	not with objects
+
+	Instance (object) degiskeni constructor icinde parametre olarak kullanilir, cunku constructorlar object olusturur ve
+	 constructorlar object baglantili degiskenleri yani instance (object) degiskenleri kullanirlar
+
+	 Constructorlarin icinde class(static) degiskenlerini kullanmayiz, cunku class degiskenleri sinifla baglantilidir
+	 fakat objectlerle degil
 */
 
 public class Animal {
@@ -49,7 +55,10 @@ public class Animal {
 		 	           
 		 	What is the difference between "this()" and "this"?           
 		 	1)"this()" is used for constructor call, "this" is used for variable call.          
-		 	2)"this()" can be used just once, "this" can be used many times.         	           
+		 	2)"this()" can be used just once, "this" can be used many times.
+
+
+
 	   */
 		this("Bobby", 5, 'M'); 	
 		this.specy = specy;		

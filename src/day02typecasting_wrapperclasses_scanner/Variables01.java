@@ -35,13 +35,13 @@ public class Variables01 {
 		System.out.println(newPrice);
 		
 		//How to do mathematical operations with different data types
-		
+
 		int a = 5;
 		double b = 4;
 		float e = 4.0f;
 		int c = 2;
 		int d = 3;
-		//Note:If datat types are different Java uses 
+		//Note:If data types are different Java uses
 		//the larger data type for the result
 		System.out.println(a+b);//9.0
 		

@@ -18,6 +18,25 @@ package day14methodoverloadingconstruction;
 		 	                              
 		 	c)Class Variables: If you create a variable outside the methods and inside the class WITH using "static"
 		 	                   keyword, it is called "instance(object) variable"
+
+		Java'da 3 ana değişken türü vardır
+
+			a)Local Variables (yerel degisken): Bir method body (govdesi) icerisinde olusturulur
+		 	                `` Yerel değişkenlere bir değer atamanız gerekir
+							   Bir değişken oluşturduğunuzda Java, değişkenler için varsayılan değerleri kullanır,
+							   ancak değişken yerel değişken ise Java varsayılan değerleri KULLANMAZ.
+							   Yerel değişkenler için bir değer atamanız gerekir,
+							   aksi takdirde yerel değişkeni kullanmaya çalıştığınızda Java şikayet eder
+
+		 	b)Instance(Object) Variables: "static" anahtar sözcüğünü KULLANMADAN, methodlarin dışında ve sınıfın içinde bir değişken oluşturursanız
+		 					buna "Instance (nesne) değişkeni" denir.
+		 					Instance degiskene deger atanabilir de atanmayabilir de
+		 					Eger deger atarsaniz Java atadiginiz degeri kullanir,
+		 					Eger deger atamazsaniz Java default (varsayilan degeri kullanir)
+
+		 	c)Class Variables: Eger "static" anahtar sözcüğünü KULLANARAK, methodlarin dışında ve sınıfın içinde bir değişken oluşturursanız
+		 					buna "Class (Sinif) değişkeni" denir.
+
 	 */
 
 public class VariableTypes01 {

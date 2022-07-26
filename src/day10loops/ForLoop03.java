@@ -7,7 +7,7 @@ public class ForLoop03 {
 	public static void main(String[] args) {
 		/*
 			 Ask user to enter a String
-			 Check if t he String is Palindrome or not
+			 Check if the String is Palindrome or not
 			 anna <==> anna
 			 1223221 <==> 1223221
 		*/

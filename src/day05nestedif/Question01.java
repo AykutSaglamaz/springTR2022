@@ -12,6 +12,10 @@ public class Question01 {
 			Write a program to check if a year is leap year or not.
 			if the year is divisible by 100 then it must be divisible by 400.
 			If a year is not divisible by 100 then it must be divisible by 4.
+
+			Kullanicidan bir yil alin ve java programi yazarak bu yilin artik yil olum olmadigini soyleyin
+			eger girilen yil 100 ile bolunuyorsa, 400 ile mutlaka bolunmesi lazim
+			eger girilen yil 100 ile bolunmuyorsa ,  mutlaka 4 ile bolunmesi lazim
 	    */
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter a year to check if it is 'Leap Year' or not");

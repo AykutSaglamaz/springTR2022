@@ -25,7 +25,7 @@ public class WrapperClass01 {
 		System.out.println(b.min(120, 23));//23
 		System.out.println(b.compare(25, 64));//-1 because the first is smaller
 		System.out.println(b.compare(64, 25));//1 because the second is smaller
-		System.out.println(b.compare(64, 64));//0 because they equal
+		System.out.println(b.compare(64, 64));//0 because they are equal
 		
 		//Create a Short Wrapper Class variable
 		//a)Print the max and min values of short data type on the console

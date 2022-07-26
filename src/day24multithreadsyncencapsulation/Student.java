@@ -24,6 +24,28 @@ public class Student {
        Note: a)The return type of getter is same with the return type of the variable
              b)The return type of setter is "void" everytime.
              c)Getters do not use "parameters" but setters must use parameters to update the existing value
+
+	      Veri Gizleme İşlemine "Encapsulation" denir.
+	      1) Sinif uyelerini gizlemek istiyorsak, "private" access modifier kullaniriz
+	      	Eger baskasinin bu objelerin detaylarina ulasmasini istemiyorsak, "toString()" kullanilmaz
+	      2) Gizlenmis degiskenlerin degerlerini okumak icin "getters" methodu olustururuz ve bu "getters"i kullanarak degiskenin degerini okuruz
+	      3) Gizlenmis degiskenlerin degerlerini spesifik bir obje icin guncellemek istiyorsak, "setters" methodu olustururuz.
+
+	    Not: "immutable class" olusturmak icin
+	 		a) degiskenlerin access modifieri  "private" yap
+	 		b) Herhangi bir setters methodu olusturma
+
+	 	Not: getter() and setter() methodlarina "Java Beans" denir
+
+	 	Not:Getter method isimleri "get" ile baslar ve "degisken ismi" ile devam eder
+             int yas = 11; ==> Getter: getYas() -   Setter: setYas()
+             fakat eger degisken "boolean" ise, getter method isimleri "is" ile baslar ve "degisken ismi" ile devam eder
+             boolean yasli = true; ==> Getter:isYasli()  -  Setter: setYasli()
+
+	    Not: a) getter'in return type degiskenin (variable) return type ile aynidir
+             b) setter'in return type ise daima "void" dir.
+             c) Getters methodu "parametre" kullanmaz fakat setters MUTLAKA parametre kullanmali ki degiskenin degerini guncellesin
+
 	*/
 	
 	private String name = "Mark Stone";

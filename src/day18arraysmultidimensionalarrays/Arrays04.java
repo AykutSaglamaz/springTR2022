@@ -52,10 +52,10 @@ public class Arrays04 {
 		String arr[] = s5.split("a");
 		/*
 		 	To check the number of "a"s in String we have 3 different scenarios:
-		 	1)"a" is at the beginning and at the end ==> "ama may I go to Alabama"
-		 	2)"a" is at the beginning and not at the end ==> "ama may I go to AlabamaX"
-		 	3)"a" is not at the beginning and not at the end ==> "Mama may I go to AlabamaX"
-		 	4)"a" is not at the beginning and at the end ==> "Mama may I go to Alabama"
+		 	1)"a" is at the beginning and is at the end ==> "ama may I go to Alabama"
+		 	2)"a" is at the beginning and is not at the end ==> "ama may I go to AlabamaX"
+		 	3)"a" is not at the beginning and is not at the end ==> "Mama may I go to AlabamaX"
+		 	4)"a" is not at the beginning and is at the end ==> "Mama may I go to Alabama"
 		*/		
 		System.out.println(Arrays.toString(arr));
 		//1.Way: It works but not recommended because the number of scenarios is too much

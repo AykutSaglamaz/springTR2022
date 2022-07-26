@@ -16,7 +16,7 @@ public class Switch01 {
 		
 		/*
 		 	Inside the switch() parenthesis, you can use String, char, byte, short, int
-		 	But boolean, long, float, and double 
+		 	But boolean, long, float, and double can not be used`
 		*/
 		
 		switch(m) {

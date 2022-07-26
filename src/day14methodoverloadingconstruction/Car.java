@@ -11,7 +11,7 @@ public class Car {
 
 	public static void main(String[] args) {
 		
-		//ClassName   ObjectName = new Constructor
+		//to create object ==> ClassName   ObjectName = new Constructor
 		    Car         car01    = new Car("Audi", 20000, 2017, "Q5", "Black");
 		    System.out.println(car01.make);
 		    System.out.println(car01.price);
@@ -44,7 +44,7 @@ public class Car {
 		    System.out.println(car05.color);//default value ==> null
 		     
 		    System.out.println(soldCarCounter);//5
-		    //When you want to look at the value of a class variable no need to use objects.
+		    //When you want to look at the value of a class variable, no need to use objects.
 		    System.out.println(car01.soldCarCounter);//5
 		    System.out.println(car02.soldCarCounter);//5
 		    System.out.println(car03.soldCarCounter);//5

@@ -12,9 +12,9 @@ public class Scanner08 {
 		*/
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter hours to convert seconds...");
-		double hours = scanner.nextDouble();
+		long hours = scanner.nextLong();
 		
-		System.out.println(hours*60*60 + "sec");
+		System.out.println(hours*60*60 + " sec");
 		
 
 	}

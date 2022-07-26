@@ -8,6 +8,9 @@ public class Array03 {
 	/*
 	 	1)Create a String array by getting the length and the elements from user
 	 	2)Type program to find how many characters are used in array elements
+
+		1) Uzunlugunu (boyutunu) ve Elementlerini kullanicidan alacagimiz bir String Array olusturun
+		2) Array in elementlerinde toplam kac tane karakter kullanildigini bulan bir java programi yaziniz
 	*/
 
 	public static void main(String[] args) {

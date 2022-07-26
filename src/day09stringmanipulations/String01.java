@@ -20,7 +20,7 @@ public class String01 {
 		                                    //         last character use substring() with a single parameter
 		
 		System.out.println(s1.substring(12));//It returns nothing
-		
+
 		/*
 		 * Ask user to enter a String
 		 * Print the first and the last character of the String on the console.

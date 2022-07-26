@@ -12,6 +12,15 @@ public class FinalKeyWord {
 	             Note: final classes can be child class but cannot be parent class
 	             i)All wrapper classes are final classes
 	             ii)All immutable classes are final classes, so String Class is a final class
+
+	   				'final' anahtar kavrami asagidaki durumlar icin kullanilabilir:
+	   a) Variables (degiskenler): Mutlaka assign (deger atama) islemi yapilmali
+	   							   Deger atama isleminden sonra degiskende guncelleme islemi yapamazsiniz
+	   b) Mehtod : Methodun icindekileri degistiremezsiniz
+	   c) Class (sinif): Sinif alt siniflara sahip olamaz. Final siniflara "extends" yapamazsiniz
+	   		Not: final class (siniflar) alt (child) sinif olabilir fakat parent(ust) sinif olamaz
+	   		i) Butun wrapper siniflar final class'tir
+	   		ii) Butun immutable siniflar final class'tir, Yani String Class'lar final class'tir
 	*/
 	
 	public final String name = "Ali Can";

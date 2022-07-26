@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class IfStatement01 {
 
 	public static void main(String[] args) {
-		
+
+
         //Get an integer from user, then tell to the user if the number is even or odd		
 		Scanner scanner = new Scanner(System.in);
 //		System.out.println("Enter an integer...");

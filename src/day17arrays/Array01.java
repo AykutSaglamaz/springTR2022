@@ -8,6 +8,13 @@ import java.util.Arrays;
 	 	3)Arrays accept just "primitives" and "references" as data type, 
 	 	  you cannot store "non-primitive" data types in an array theoritecally
 	 	4)Arrays are non-primitive
+
+
+	 	1) Arrays ayni container icinde cok sayida datayi depolamamiz icin vardir
+	 	2) Arrays de butun elementler MUTLAKA ayni data type de olmasi lazim
+	 	3) Arrays sadece "primitives" leri ve refereranslari data type olarak kabul eder.
+	 		teorik olarak "non-primitive" data typlerini bir Array icinde depolayamayiz
+	 	4) Arrays lerin data type non-primitive'dir
 	 */
 
 public class Array01 {
@@ -32,7 +39,8 @@ public class Array01 {
 		
 		//How to print a specific element from an array
 		System.out.println(a[2]);//11
-		System.out.println(a[4]);//22	
+		System.out.println(a[4]);//22
+		// var olmayan bir indexi bulmak istedigimizde ne olur
 		//System.out.println(a[5]);//ArrayIndexOutOfBoundsException
 		
 		//How to get the number of elements in an array

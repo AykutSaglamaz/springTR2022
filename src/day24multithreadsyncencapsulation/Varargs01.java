@@ -9,6 +9,15 @@ public class Varargs01 {
 	  4) "..." can be put just after data type(int... a) or just before varargs name(int ...a). Others do not work
 	  
 	  Note: If you need same method to use with different number of parameters, use "varargs"
+
+	  1) "varargs" larin arka planinda, Java Arrays'leri kullanir. Bu nedenle, "varargs"lar bazi farkliliklarla Arrays'ler gibi calisir
+	  2) Method parentezinin icinde bir "varargs" dan daha fazlasi kullanilamaz
+	  3) Varargs her zaman en son parametre OLMALI
+	  4) "..." data type ten hem sonra (int... a) veya varargs isminden once kullanilablir (int ...a). Diger durumlar calismaz
+
+	  Not: Eger parametre sayilari farkli olan ayni isimli methodlar kullanmak istiyorsaniz, "varargs" en iyi secenektir
+
+
 	 */
 
 	public static void main(String[] args) {

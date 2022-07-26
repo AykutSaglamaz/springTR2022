@@ -4,6 +4,7 @@ public class MethodCreation01 {
 	
 	/*
 	 	If a method is static everything inside the method must be static
+	 	Eger bir method static ise onun govdesi icerisindeki hersey static olmalidir
 	 */
 
 	public static void main(String[] args) {
@@ -20,7 +21,7 @@ public class MethodCreation01 {
 		System.out.println(multiply(2,3,4));//24
 
 	}
-	
+
 	/*
 	 	If you want to create method whose names are same inside a class, you have to make parameters different.
 	 	1)Make the data types of parameters different
@@ -37,6 +38,22 @@ public class MethodCreation01 {
 	 		  
 	    Note: For Java, to make the methods different, just a)method name and b)parameters are important.
 	          Because of that method name + parameters are called "Method Signature"
+
+	Bir sınıf içinde isimleri aynı olan methodlar olusturmak istiyorsanız, parametreleri farklı hale getirmelisiniz.
+		1) Parametrelerin veri tipini farklı yapın
+		2) Parametre sayısını farklı yapın
+		3) Parametrelerin data tipi farklıysa, parametrelerin sırasını değiştirebilirsiniz.
+
+	Not1: Eğer a)isimleri aynı, b)parametreleri farklı c)aynı sınıfta metotlar olusturursaniz,
+		buna "Method Overloading" denir.
+
+	Not2:"Method Overloading" icin
+		a) Farklı return tipleri kullanmak işe yaramaz
+		b) Farklı erişim duzenleyici (access modifier) kullanmak işe yaramaz
+		c) Farklı parametre isimleri kullanmak işe yaramaz
+
+	Not3: Java için methodları farklı kılmak için sadece a)method adı ve b)parametreleri önemlidir.
+		  Bundan dolayi method ismi + parametrelere "method signature" denir.
 	 */
 	
 	//Create a method and use it inside the main method
@@ -70,7 +87,8 @@ public class MethodCreation01 {
 	//Create a method which multiplies 3 integers, then call the method from main method
 	//The variables created inside the method parenthesis like x, y, z are called "parameters"
 	public static int multiply(int x, int y, int z) {
-		return x*y*z;	
+
+		return x*y*z;
 	}
 
 }

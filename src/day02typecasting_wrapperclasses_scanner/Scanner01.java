@@ -16,15 +16,20 @@ public class Scanner01 {
 		
 		//Create an object from Scanner class like below
 		Scanner scanner = new Scanner(System.in);
-		
+
 		//Give a message to the user about what to enter
 		System.out.println("Hey user, enter your age...");
+
 		
 		//Get the data user entered and put it into a container
 		int age = scanner.nextInt();
+
+		System.out.println("Enter your weight");
+		float weight = scanner.nextFloat();
 		
 		//Then use the data user entered however you want
 		System.out.println(age);
+		System.out.println(weight);
 
 	}
 

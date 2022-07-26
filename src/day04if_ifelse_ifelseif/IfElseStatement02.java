@@ -12,7 +12,7 @@ public class IfElseStatement02 {
 		String day = scanner.next();
 		
 		/*
-		 	1)"==" ==> Checks a)values and b)addresses. If both are same it returns true otherwise it returns false
+		 	1)"==" ==> Checks a)values and b)addresses (references). If both are same it returns true otherwise it returns false
 		 	2)"equals()" ==> Checks just the values by NOT Ignoring Cases.
 		 	3)"equalsIgnoreCase()" ==> Checks just the values by ignoring cases
 		*/

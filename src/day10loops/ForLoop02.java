@@ -8,7 +8,7 @@ public class ForLoop02 {
 		
 		/*
 		 	Ask user to enter a String
-		 	Print the characters whose indexes are even in  the same line with a space between the characters
+		 	Print the characters whose indexes are even in the same line with a space between the characters
 		*/
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter a String...");
@@ -30,7 +30,8 @@ public class ForLoop02 {
 		
 		/*
 		  Ebay Interview Question:
-		  Type code to print non-repeated characters of any given String 
+		  Type code to print non-repeated characters of any given String
+		  verilen bir String de tekrar edilmeyen karakterleri yazdiran bir program yaziniz
 		*/		
 //		for(int i=0; i<s.length(); i++) {
 //			if(s.indexOf(s.charAt(i))==s.lastIndexOf(s.charAt(i))) {

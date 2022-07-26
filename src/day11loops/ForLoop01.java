@@ -31,7 +31,7 @@ public class ForLoop01 {
 		
 		if(x>y) {
 			
-			System.err.println("Starting value should be greater than ending value");
+			System.err.println("Starting value should be smaller than ending value");
 			
 		}else {
 		

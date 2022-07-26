@@ -7,6 +7,7 @@ public class Question01 {
 	public static void main(String[] args) {
 		/*
 		 	Ask use to enter firstname and lastname under given conditions;
+		 	Asagidaki sartlar altinda kulanicinin ad ve soyadini girsin
 		 	
 		 	1)If user uses space characters at the beginning or at the end remove them.
 		 	2)If user enters nothing or just space character, give a message like
@@ -56,7 +57,7 @@ public class Question01 {
 		//5.Step:
 		
 		/*
-		 	When you create a variable between any curly barces, the variable can be used just inside the curly brace.
+		 	When you create a variable between any curly braces, the variable can be used just inside the curly brace.
 		 	If you try to use the variable outside the curly brace, Java will give Compile Time Error.
 		 	This is called "Scope" in Java
 		*/

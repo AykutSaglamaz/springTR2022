@@ -28,7 +28,8 @@ public class ForEachLoop01 {
 		
 		System.out.println();
 		
-		//If the characters are not vowel in the list print them on the console. 
+		//If the characters are not vowel in the list print them on the console.
+		// Unsuz olan karakterleri yaziniz
 		for(Character w : list1) {
 			
 			if(w=='a' || w=='e' || w=='i' || w=='o' || w=='u') {
@@ -41,6 +42,7 @@ public class ForEachLoop01 {
 		System.out.println();
 		
 		//Print the ASCII values of all characters on the console
+		//Tum karakterlerin ASCII degerlerin yazdiriniz
 		for(Character w : list1) {
 			System.out.print(w + ":" + (int)w + " - ");
 		}
@@ -48,6 +50,7 @@ public class ForEachLoop01 {
 		System.out.println();
 		
 		//Find the sum of all ASCII values of the characters inside the list
+		// Sayilarin tum ASCII degerlerinin toplamini yazdiriniz
 		int sum = 0; 
 		for(Character w : list1) {
 			sum = sum + w;
@@ -55,6 +58,7 @@ public class ForEachLoop01 {
 		System.out.println("The sum of the ASCII values: " + sum);
 		
 		//Print the characters whose ASCII values are even
+		//ASCI degeri cift olan karakterlerini yazdiriniz
 		for(Character w : list1) {		
 			if(w%2==0) {
 				System.out.print(w + " ");
@@ -63,7 +67,8 @@ public class ForEachLoop01 {
 		
 		System.out.println();
 		
-		//If you see any character whose ASCII value is less than 100 stop printing nad give an error message
+		//If you see any character whose ASCII value is less than 100 stop printing and give an error message
+		// ASCII degeri 100 den kucuk olan bir karakter gordugunuzde, Java calismayi durdursun
 		
 		Character flag = ' ';
 	
@@ -79,6 +84,8 @@ public class ForEachLoop01 {
 		//Arrays can use for-each loop as well
 		
 		//Print the list elements which does not end with "n"
+		//List elementlerinden sonu 'n' ile bitmeyenleri yazdirin
+
 		String s[] = {"Ali", "Can", "Hasan", "Ekrem"};		
 		for(String w : s) {
 			if(!w.endsWith("n")) {
