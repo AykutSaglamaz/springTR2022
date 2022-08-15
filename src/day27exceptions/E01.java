@@ -7,7 +7,7 @@ import java.io.IOException;
 	/*
 	 	1)FileNotFoundException: 
 	 		a)The file with the specified path does not exist
-	 		b)If the is unaccessible 
+	 		b)If the file is unaccessible
 	    2)IOException:
 	        a)It can handle all exceptions about Input and Output
 	    Note: IOException is the parent of FileNotFoundException

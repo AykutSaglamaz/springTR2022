@@ -9,6 +9,7 @@ public class E02 {
 	public static void main(String[] args) {
 		
 		//StringIndexOutOfBoundsException
+
 		//String s = "Java is easy";		
 		//System.out.println(s.charAt(2));//v		
 		//System.out.println(s.charAt(12));//StringIndexOutOfBoundsException		
@@ -22,7 +23,7 @@ public class E02 {
 		list.add(23);
 		
 		Iterator<Integer> listItr = list.iterator();
-		listItr.next();
+		listItr.next(); // put pointer after first index
 		listItr.remove();
 
 	}

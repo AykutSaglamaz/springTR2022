@@ -17,6 +17,9 @@ package day29exceptionsabstraction;
 	 	8)You cannot create object from abstract classes
 	 	9)Abstract classes are classes because of that they have constructors, but constructors are not used
 	 	  to create objects, they can be used to initialize variables
+
+	 	  	//abstract classes can have abstract and/or concrete methods
+
 	 */
 
 public abstract class Animal {

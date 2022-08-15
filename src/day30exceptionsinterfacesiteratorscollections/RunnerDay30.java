@@ -18,8 +18,7 @@ public class RunnerDay30 {
 		System.out.println(hc1.name);
 		System.out.println(hc1.system);
 		
-		//If you parent interfaces have variables with same name and 
-		//you use object to call them, Java confuses and gives CTE
+		//If your parent interfaces have variables with same name and you use 'object' to call them, Java confuses and gives CTE
 		//System.out.println(hc1.price);
 		
 		//In interfaces, to call variables using interface names are the best option
@@ -29,6 +28,17 @@ public class RunnerDay30 {
 		//But if the methods whose names are same have different return types gives Compile Time Error
 		//If you need to use different return type make the method names different
 		hc1.eat();
+
+
+		// if child and parent are same use "extends"
+		/*
+		  Class ===> Interface use "implements" keyword--->>> class implements interface
+	 		Interface ====> Interface use "extends" keyword --->>> interface extends interface
+	 		Class ====> Class use "extends" keyword --->>> class extends class
+		 */
+
+		// interface can not be a child of a class
+		// interface does not implements or extends a class
 		
 
 	}

@@ -18,7 +18,7 @@ public interface AirCondition {
 	 						3) All variables are "public", "static", and "final" in interfaces, in abstract classes
 	 						   we can have every type of variables
 	 						4) Abstract classes have "constructors", interfaces do not have.
-	 						5) Both cannot be instantiated
+	 						5) Both cannot be instantiated (cannot create object from them)
 	 						6) A concrete class can have just a single "abstract class" parent but it can have 
 	 						   multiple interface parent.
 	 						7) Class ====> Interface use "implements" keyword
