@@ -40,12 +40,7 @@ public class HashMap01 {
             }
         }
 
-
-
-
         System.out.println(result);//{codes=1, java=3, money=1, learn=2, earn=1, is=1, to=2, type=1, easy=1}
-
-
 
         //Type  code to see the number of occurrences of characters in a given String
 
