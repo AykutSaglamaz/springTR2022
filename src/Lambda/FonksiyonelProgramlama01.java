@@ -36,6 +36,8 @@ public class FonksiyonelProgramlama01 {
         ciftRakamStructured(lt);
         System.out.println();
         ciftRakamfunctional(lt);
+        System.out.println();
+        sayiKareFunctional(lt);
 
     }
 
@@ -70,6 +72,17 @@ public static void ciftRakamfunctional(List<Integer> lt){
 }
 
 //3- Cift sayilarin karesini bir bosluk birakarak ayni satirda yazdiran bir method olusturun
+
+    public static void sayiKareFunctional (List<Integer> lt){
+
+        lt.
+                stream().
+                filter(t->t%2==0).
+                map(t->t*t).
+                forEach(t-> System.out.print(t + " "));
+    }
+
+
 
 
 
