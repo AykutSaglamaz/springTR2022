@@ -26,4 +26,14 @@ public class Utils {
         return x/2.0;
     }
 
+    public static Integer rakamlarToplami(int x){
+        int toplam =0;
+        while (x!=0){
+            toplam = toplam + x%10;
+            x= x/10;
+        }
+        return toplam;
+    }
+
+
 }

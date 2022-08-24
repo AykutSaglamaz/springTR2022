@@ -1,0 +1,4 @@
+Java bitmek uzeredir.
+Eger kodlarinizi Lambda ile yazarsaniz isiniz daha kolaydir
+Lambdayi kullanmak uygun methodu secmek demektir
+mumkunse, surekli Java'da Lambdayi kullanin
