@@ -7,7 +7,9 @@ public class Students {
 	int grade;
 	int registrationYear;
 	static int counter = 1000;
-	
+
+
+
 	public void setId() {		
 		counter++;
 		id = "" + registrationYear + grade + counter;		

@@ -20,7 +20,7 @@ package day14methodoverloadingconstruction;
 	Note: Default constructor is constructor without parameters like "public Constructors01(){ }"
 
 
-	Java, classlarin object olusturmak icin olugunu bilir, bu nedenle object olusturmak icin  bizin constructors lara ihtiyacimiz var
+	Java, classlarin object olusturmak icin olugunu bilir, bu nedenle object olusturmak icin  bizim constructors lara ihtiyacimiz var
 		***** kek yapmak icin kalip ve hamur var ise bizin bunu yapabilecek bir kisiye ihtiyacimiz var, anne veya es;
 		bunun icin bir class olustururken Java otomatik olarak bir constructor olusturur.
 
@@ -35,7 +35,7 @@ package day14methodoverloadingconstruction;
 	1-Constructorslarin return typeleri yoktur, methodlarin var
 	2-Methodlar herhangi bir isimi method name olarak kullanabilir, fakat constructorlarin ismi MUTLAKA class ismi ile ayni olmali
 
-	not: bir class olusturuldugunda Java size otomatik bir default constructor verirs,
+	not: bir class olusturuldugunda Java size otomatik bir default constructor verir,
 		eger siz kendiniz bir constructor olusturursaniz Java default olani siler
 
 	Not: Default constructor parametresi olmayan bir constructordir ==> "public Constructors01(){ }"

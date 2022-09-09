@@ -25,7 +25,7 @@ public class Arrays02 {
 		 	2)Find the multiplication of the lengths of the elements.
 
 		 	Kullaniciyla beraber String Array olusturun
-		 	Arrayin elementlerinin uzunluklarinin carpimini bulunuz
+		 	Array'in elementlerinin uzunluklarinin carpimini bulunuz
 		*/
 
 		Scanner scan = new Scanner(System.in);

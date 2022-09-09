@@ -35,6 +35,7 @@ public class Arrays01 {
 		       Arrays are mutable, it means Arrays methods are able to change the arrays as you can see in the 
 		       sort() below.
 		 */
+
 		Arrays.sort(arr);
 		System.out.println("Array after sort: " + Arrays.toString(arr));//[11, 12, 13]
 

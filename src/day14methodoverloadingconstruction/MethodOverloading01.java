@@ -38,7 +38,7 @@ public class MethodOverloading01 {
 
 	}
 	
-	public static int add(int... a) {
+	public static int add(double... a) {
 		System.out.println("I am using varargs...");
 		return 1;
 	}
@@ -47,22 +47,22 @@ public class MethodOverloading01 {
 		System.out.println("int + int");
 		return a+b;
 	}
-	
+
 	public static double add(double a, int b) {
 		System.out.println("double + int");
 		return a+b;
 	}
-	
+
 	public static double add(int a, double b) {
 		System.out.println("int + double");
 		return a+b;
 	}
-	
+
 	public static double add(double a, double b) {
 		System.out.println("double + double");
 		return a+b;
 	}
-	
+
 	public static double add(int a, int b, double c) {
 		System.out.println("int + int + double");
 		return a+b;
