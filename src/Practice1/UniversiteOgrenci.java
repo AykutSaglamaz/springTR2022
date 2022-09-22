@@ -42,7 +42,7 @@ public class UniversiteOgrenci implements Comparable<UniversiteOgrenci> {
             Arrays.sort(uniOgrenci);
 
         System.out.println(Arrays.toString(uniOgrenci));
-// buyukten kucuge siralansa
+ // buyukten kucuge siralansa
         Arrays.sort(uniOgrenci, Collections.reverseOrder());
         System.out.println(Arrays.toString(uniOgrenci));
 
