@@ -13,6 +13,9 @@ public class Istisna01 {
             a) Bu exception input ve output ile ilgili butun exception'lar mudahale eder
            Not: IOException, FileNotNotFoundException'larin ebeveynidir
            Not: Eger IOException kullaniyorsaniz, FileNotFoundException kullanmaniza gerek yoktur
+        3) Eger bir Exception gorurseniz, iki tane secenegimiz var
+            a) 'throws' declaration'i method signiture kismina/ satirina eklenir
+            b)  try-catch block kullanilir
 
      */
 
