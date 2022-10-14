@@ -18,7 +18,7 @@ public class Istisna02 {
 
         try {
 
-            FileInputStream dosya = new FileInputStream("src/Practice1/File01X");
+            FileInputStream dosya = new FileInputStream("src/Practice1/File01");
 
 
             int i =0;
