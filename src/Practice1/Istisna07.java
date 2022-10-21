@@ -13,7 +13,7 @@ public class Istisna07 {
 
 
         THROWS
-            -Throws anahtar sozcugu virgulle ayirakrak bir veya birden fazla istisna icin kullanilabilir
+            -Throws anahtar sozcugu virgulle ayirarak bir veya birden fazla istisna icin kullanilabilir
             -Throws anahtar sozcugu birden fazla istisna icin kullanilabilir
             -Throws anahtar sozcugu METHOD SIGNITURE ile kullanilir
             -Throws anahtar sozcugunu Exception class ile kullanmaliyiz =>IllegalArgumentException
@@ -43,6 +43,11 @@ public class Istisna07 {
              System.out.println(yas);
 
          }
+
+
+
+
+
 
      }
 
