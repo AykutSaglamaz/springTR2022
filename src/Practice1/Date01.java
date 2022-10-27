@@ -81,7 +81,7 @@ public class Date01 {
         System.out.println(saatiFormatla2.format(guncelSaat)); // 5:00
 
     LocalDate t1 = LocalDate.now();
-    LocalDate t2 = LocalDate.of(2015, 5, 16);
+    LocalDate t2 = LocalDate.of(1986, 10, 27);
         Period fark = Period.between(t1,t2);
         System.out.println(fark); //P-7Y-4M-28D
 
