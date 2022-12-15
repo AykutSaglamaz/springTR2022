@@ -94,7 +94,7 @@ public class Account {
         }
     }
 
- //Musteri ile para cekmek icin etkilesime gecelim ==> checking hesabi icin
+ //Musteri ile para eklemek icin etkilesime gecelim ==> checking hesabi icin
     public void getCheckingDeposit(){
         System.out.println("checking hesabindaki bakiye: "+ moneyFormat.format(checkingBalance));
         System.out.println("Yatirmak istediginiz miktari giriniz");
@@ -102,7 +102,7 @@ public class Account {
 
         if (amount<=0){
             System.out.println("sifir ve eksi rakamlar gecersizdir");
-            getCheckingWithdraw();// recursive methodu ==> ayni methodu tekrar cagirma
+            getCheckingWithdraw();// recursive methodu ==> ayni methodu kendi icinde tekrar cagirma
         } else {
             calculateCheckingBalanceAfterDeposit(amount);
             System.out.println("checking hesabindaki bakiye: "+ moneyFormat.format(checkingBalance));
@@ -110,6 +110,36 @@ public class Account {
         }
 
     }
+    //Musteri ile para cekmek icin etkilesime gecelim ==> saving hesabi icin
+    public void getSavingWithdraw(){
+        System.out.println("Saving hesabindaki bakiye: "+ moneyFormat.format(savingBalance));
+        System.out.println("Cekmek istediginiz miktari giriniz");
+        double amount = input.nextDouble();
+        if(amount<=0){
+        System.out.println("sifir ve eksi rakamlar gecersizdir");
+        getSavingWithdraw();// recursive methodu ==> ayni methodu kendi icinde tekrar cagirma
 
+        } else if (amount<=savingBalance) {
+            calculateSavingBalanceAfterWithdraw(amount);
+            System.out.println("Saving hesabindaki bakiye: "+ moneyFormat.format(savingBalance));
+
+        }else{
+            System.out.println("Yetersiz bakiye");
+        }
+    }
+
+    //Musteri ile para ekleme icin etkilesime gecelim ==> saving hesabi icin
+    public void getSavingDeposit(){
+        System.out.println("Saving hesabindaki bakiye: "+ moneyFormat.format(savingBalance));
+        System.out.println("Yatirmak istediginiz miktari giriniz");
+        double amount = input.nextDouble();
+        if(amount<=0) {
+            System.out.println("sifir ve eksi rakamlar gecersizdir");
+            getSavingDeposit ();// recursive methodu ==> ayni methodu kendi icinde tekrar cagirma
+        } else {
+            calculateSavingBalanceAfterDeposit(amount);
+            System.out.println("Saving hesabindaki bakiye: "+ moneyFormat.format(savingBalance));
+        }
+    }
 
 }
