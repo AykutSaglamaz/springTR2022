@@ -29,7 +29,7 @@ public static void main(String[] args) {
     System.out.println();
 //        uzunlukBestenBuyukseSil (l);
 
-    belliBirHarfIleBarlarveBiter (l);
+    belliBirHarfIleBaslarveBiter(l);
 
     uzunlugunKaresiFarkliOlanTerstenYardirma (l);
     System.out.println();
@@ -78,7 +78,7 @@ public static void onceUzunlukSonraIlkKaraktereGoreSirala(List<String> l){
 //    }
 
 //6- Elemanlarindan 'B', 'b' ile baslayan  ve 'N', 'n' biten elemanlari silen bir method olusturun
-public static void belliBirHarfIleBarlarveBiter (List<String> l){
+public static void belliBirHarfIleBaslarveBiter(List<String> l){
     l.removeIf(t->t.charAt(0) == 'B' || t.charAt(0) == 'b' ||   t.charAt(t.length()-1) == 'N'|| t.charAt(t.length()-1) == 'n' );
     System.out.println(l);
 }
